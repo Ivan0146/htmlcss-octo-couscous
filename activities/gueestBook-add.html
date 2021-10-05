@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Document</title>
+      <link
+         rel="stylesheet"
+         href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      />
+      <link rel="stylesheet" href="main.css" />
+   </head>
+   <body>
+      <div class="container">
+         <form action="">
+            <h1 class="heading__primary">Guest Information</h1>
+
+            <div class="form">
+               <label for="name">Name:</label>
+               <div class="form__container">
+                  <input
+                     class="form__input"
+                     type="text"
+                     placeholder="Enter full name"
+                     name="name"
+                  />
+                  <i class="fal fa-info-circle input__logo"></i>
+               </div>
+               <span class="form__warning">Please fill out this field.</span>
+            </div>
+
+            <div class="form">
+               <label for="email">Email:</label>
+               <div class="form__container">
+                  <input
+                     class="form__input"
+                     type="email"
+                     placeholder="Enter email"
+                     name="email"
+                  />
+                  <i class="fal fa-info-circle input__logo"></i>
+               </div>
+               <span class="form__warning">Please fill out this field.</span>
+            </div>
+
+            <div class="form">
+               <label for="">Comment:</label>
+               <div class="form__container">
+                  <textarea
+                     class="form__input"
+                     name=""
+                     id=""
+                     cols="30"
+                     rows="10"
+                  ></textarea>
+                  <i class="fal fa-info-circle input__logo"></i>
+               </div>
+               <span class="form__warning">Please fill out this field.</span>
+            </div>
+
+            <div>
+               <div>
+                  <input type="checkbox" name="checkBox" />
+                  <label for="checkBox"
+                     >I agreed on <span class="red--text">terms</span> and
+                     <span class="red--text">condition</span></label
+                  >
+               </div>
+
+               <span class="form__warning"
+                  >Check this checkbox to continue.</span
+               >
+            </div>
+
+            <div class="btn__container">
+               <button class="btn">Submit</button>
+            </div>
+         </form>
+      </div>
+   </body>
+</html>
